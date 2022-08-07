@@ -1,5 +1,8 @@
-/* Header */
+* {
+  font-family: "Poppins", sans-serif;
+}
 
+/* Header */
 .header {
   padding-top: 46px;
   background-color: #f1f1f1;
@@ -27,6 +30,7 @@
   color: #000;
   font-weight: 500;
   font-size: 14px;
+  text-decoration: none;
 
   transition: color 0.3s ease-in-out;
 }
@@ -85,6 +89,7 @@
   margin-top: 30px;
   font-size: 24px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .services_card-desc {
@@ -92,4 +97,29 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
+}
+
+.portfolio {
+  background-color: #f1f1f1;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.portfolio_title {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.portfolio_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.portfolio_link {
+  font-weight: 400;
+  font-size: 18px;
+  color: #070707;
+  text-decoration: underline;
 }
