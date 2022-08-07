@@ -150,15 +150,20 @@
 .footer_btn {
   margin-top: 40px;
   background-color: #000;
+  font-size: 18px;
   color: #fff;
   padding: 7px 22px;
-  border-radius: 100px;
+  border-radius: 30px;
 }
 
 .footer_links {
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
+}
+
+.footer_links img {
+  cursor: pointer;
 }
 
 .footer_links-desc {
