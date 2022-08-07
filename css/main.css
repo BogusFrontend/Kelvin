@@ -99,9 +99,11 @@
   line-height: 28px;
 }
 
+/* Portfolio */
+
 .portfolio {
   background-color: #f1f1f1;
-  padding-top: 90px;
+  padding: 90px 0;
   text-align: center;
 }
 
@@ -122,4 +124,46 @@
   font-size: 18px;
   color: #070707;
   text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding: 90px 0;
+  max-width: 342px;
+  margin: 0 auto;
+}
+
+.footer_title {
+  font-size: 34px;
+  font-weight: 600;
+  color: #070707;
+}
+
+.footer_desc {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.footer_btn {
+  margin-top: 40px;
+  background-color: #000;
+  color: #fff;
+  padding: 7px 22px;
+  border-radius: 100px;
+}
+
+.footer_links {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_links-desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: #828282;
+  margin-top: 40px;
 }
